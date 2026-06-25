@@ -32,11 +32,15 @@ class Calculator{
     public int getA() {
         return a;
     }
-    
+
     //setter for 'a'
     public void setA(int a) {
         this.a = a;
     }
+}
+
+class Advcalculator extends Calculator {
+    
 }
 
 public class First {
